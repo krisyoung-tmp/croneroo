@@ -1,4 +1,4 @@
-# croneroo-js
+# Croneroo JS
 
 Node.js library for parsing cron expressions to a table of field values.
 
@@ -39,9 +39,6 @@ chroneroo parse "*/15 0 1,15 * 1-5 /usr/bin/find"
 Supports ranges and frequency within range (ie 10-29/5 will result in 10,15,20,25) where the frequency must be evenly divisible by the size of the range.
 
 # Build
-
-Testing is implemented using [AVA](https://github.com/avajs/ava)
-
 ```bash
 yarn build
 ```
