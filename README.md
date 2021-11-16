@@ -29,7 +29,7 @@ node ./build/main/index.js parse parse "*/15 0 1,15 * 1-5 /usr/bin/find"
 or via the croneroo alias
 
 ```bash
-chroneroo parse "*/15 0 1,15 * 1-5 /usr/bin/find"
+croneroo parse "*/15 0 1,15 * 1-5 /usr/bin/find"
 
 // minute 0 15 30 45
 // hour 0
